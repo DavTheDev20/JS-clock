@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-weight: 700;
+    margin-left: 20px;
+    display: inline;
+    text-shadow: 1px 1px 2px grey;
+}
+
+a {
+    display: block;
+    margin-left: 100px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: green;
+}
+
+p { 
+    margin-left: 150px;
+    width: 40%;
+    font-weight: 300;
+}
+
+#time-box {
+    position: absolute;
+    left: 1050px;
+    top: 40px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid red;
+    padding: 5px;
+    
+}
+
+#clock {
+    display: inline;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    margin: 10% auto;
+
+}
+
+.arrow {
+    display: inline;
+    font-size: 4rem;
+    margin-left: 200px;
+}
